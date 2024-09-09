@@ -1471,10 +1471,11 @@ button{
   }
   .black{
     width:100vw;
-    height:320vh;
+    height:380vh;
   }
   .purple{
-    width:200vw;
+    width:100vw;
+    height:180vh;
   }
   .mc{
     height:50vh;
