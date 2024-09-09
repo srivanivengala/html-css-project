@@ -1458,6 +1458,12 @@ button{
      
 
 }
+@media only screen and (width>450px) and (width<550px){
+    .black{
+        width:100vw;
+        height:360vh;
+      }
+}
 @media only screen and (width<450px){
   .orange{
     width:100vw;
@@ -1465,10 +1471,10 @@ button{
   }
   .black{
     width:100vw;
-    height:450vh;
+    height:320vh;
   }
   .purple{
-    width:100vw;
+    width:200vw;
   }
   .mc{
     height:50vh;
@@ -1486,7 +1492,7 @@ button{
       }
       .black{
         width:100vw;
-        height:400vh;
+        height:370vh;
       }
       .purple{
         width:100vw;
