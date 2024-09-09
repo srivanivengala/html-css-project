@@ -1439,7 +1439,19 @@ button{
       }
      
       .carddirty{
-        height:70vh;
+        width:70vw;
+        height:64vh;
+       
+      }
+      .problem{
+        width:70vw !important;
+      }
+      .imglap{
+        width:70vw;
+        height:35vh;
+      }
+      .humancard{
+        margin-left: 15vw;
       }
       .orange{
         width:100vw;
@@ -1452,10 +1464,15 @@ button{
       .purple{
         width:100vw;
       }
+      .mastercard{
+        margin-left: -10vw;
+      }
       .mc{
         height:50vh;
       }
-     
+     .allicons{
+        margin-left: 15vw;
+     }
 
 }
 @media only screen and (width>450px) and (width<550px){
@@ -1481,7 +1498,7 @@ button{
     height:50vh;
   }
   .problem{
-    width:55vw !important;
+    width:70vw !important;
   }
  
 
