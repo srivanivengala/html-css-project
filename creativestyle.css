@@ -1,0 +1,1509 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x:hidden;
+   background-color: #efeeee;
+   width:100vw;
+}
+.container-fluid{
+    background-color:#efeeee;
+    height:5vw;
+    width:100vw;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+}
+.animate__animated .animate__slideInLeft {
+    --animate-duration: 2s;
+  }
+  .animate__animated .animate__slideRight {
+    --animate-duration: 2s;
+  }
+  
+.ca{
+    color:white;
+    font-weight: 900;
+    background-color:rgb(76, 76, 201);
+    padding-left:0.5vw;
+    padding-right: 0.9vw;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+   
+}  
+.navbar-brand{
+    margin-left: 5vw;
+    font-size: x-large;
+    font-weight: 800;
+}
+.titlesection{
+    background-color: #efeeee;
+    width:100vw;
+    height:108vh;
+    display:flex;
+    overflow:hidden;
+}
+.creative{
+    font-size: 6vw;
+    font-weight: 800;
+    margin-left:10vw;
+    margin-top:12vw;
+    line-height:6vw;
+    color:rgb(40, 36, 36)
+}
+.orange{
+    background-color:coral;
+    width:50vw;
+    height:83vh;
+    margin-top: 5vw;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-left:14vw;
+    
+}
+.book{
+    margin-left:-4vw;
+    margin-top:-1.3vw;
+}
+.video{
+    text-decoration: none;
+    color:rgb(77, 75, 75);
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 150%;
+}
+.bi-play-circle{
+    color:rgb(77, 75, 75);
+}
+.black{
+    background-color: rgb(39, 38, 38);
+    width:100vw;
+    height:170vw;
+}
+
+
+
+
+.purple{
+    background-color: rgb(76, 76, 201);
+    width:100vw;
+    height:63vw;
+}
+.services{
+    line-height:400%;
+}
+.servi{
+    color:white;
+    font-size: 380%;
+    font-weight:800;
+     margin-top:5vw;
+     margin-left:10vw;
+}
+.port{
+    color:white;
+    font-size: 380%;
+    font-weight:800;
+    margin-left:10vw;
+}
+.allicons{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left:10vw ;
+    margin-right: 15vw;
+    gap:3vw;
+}
+.brandidentity{
+    display:flex;
+    
+    gap:2vw;
+    color:white;
+}
+.identity{
+    font-size: larger;
+}
+.identity2{
+    color:rgb(173, 167, 209);
+}
+.allimages{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap:0px;
+}
+.img1{
+    width:25vw;
+    height:55vh;
+    
+    
+}
+
+.viewbutton{
+    color:white;
+    background-color:coral ;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left:3vw;
+    padding-right:3vw;
+    padding-top:1.5vw;
+    padding-bottom:1.5vw;
+    font-size:1vw;
+    font-weight: bold;
+    border:none;
+    
+}
+.achi{
+    font-size:300% ;
+    font-weight: 800;
+    color:white;
+}
+.we{
+    color:white;
+    font-size: 150%;
+}
+.achieve{
+    line-height: 300%;
+}
+.flexible{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* gap:20vw; */
+}
+ .innernumbers{
+    font-size:450%;
+    font-weight: 800;
+    color:white;
+ }
+ .heightfixing{
+     line-height: 150%;
+ }
+ .smalltext{
+    color:white;
+    font-size:1.2vw;
+ }
+ .greentext{
+    color:rgb(152, 249, 216)
+ }
+
+.mc{
+    color:rgb(47, 46, 46);
+    margin-left:15vw;
+    background-color:#efeeee;
+    width:23vw;
+    height:30vh;
+}
+.master{
+    font-size: 350%;
+    font-weight: 900;
+    line-height:100%
+}
+.contvalue{
+    font-size: 135%;
+    line-height: 120%;
+    letter-spacing: 0.1rem;
+}
+
+/* for carousel lady */
+/* .carddirty{
+    display:flex;
+    flex-direction: row !important;
+    width:30vw;
+    height:40vh;
+} */
+
+
+
+
+
+
+
+
+
+
+/* .imglap{
+    width:15vw;
+    height:100%;
+} */
+/* .containerdesign{
+    align-content: center;
+} */
+.mastercard{
+    display:flex;
+    margin-top:11vw;
+    gap:12vw;
+}
+.carddirty{
+    display:flex;
+    flex-direction: row;
+    width:30vw;
+    height:40vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .slideshow-mustard {
+    max-width: 460px;
+    position: relative;
+    margin: auto;
+  } */
+  /* .back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .forward {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+   */
+  
+  /* .back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+  } */
+  /* .shade {
+    animation-name: shade;
+    animation-duration: 500s;
+
+   visibility: visible;
+  } */
+  .imglap{
+    width:15vw;
+    height:100%;
+}
+.random{
+    align-content: center;
+    margin-left:2vw;
+}
+.none{
+    line-height: 110%;
+}
+/* .none{
+    line-height: 110%;
+} */
+.humancard{
+    display:flex;
+    margin-top:5vw ;
+    margin-left: 15vw;
+    gap:5vw;
+}
+/* .card, .carousel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align:left;
+} */
+.meetbutton{
+    color:white;
+    background-color:rgb(36, 94, 74) ;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left:3vw;
+    padding-right:3vw;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    font-size:1vw;
+    font-weight: bold;
+    
+}
+/* cars  shadow */
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+   .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(76, 76, 201); /* Fallback color */
+    background: rgba(4, 29, 169, 0.5); /* Black background with 0.5 opacity */
+    color: #fefcfc;
+    width: 30vw;
+    height:100%;
+    padding: 5vw;
+    line-height: 300%;
+  }
+  .one{
+    background-color: rgb(76, 76, 201);
+    width:30vw;
+    height:65vh;
+    font-weight: 900;
+    color:rgb(108, 108, 231);
+    font-size:20vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    /* margin-top:5vw; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 red; */
+    text-shadow: 50px 50px 50px 50px grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 black;
+  }
+.project{
+  color:white;
+  font-size: 310%;
+  font-weight:800;
+ 
+  
+}
+
+.projecttext{
+  color:rgb(173, 167, 209);
+  font-size: 1vw;
+  line-height: 150%;
+  font-weight: 500;
+}
+.bluecard{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:0px;
+    margin-left: 1vw;
+    /* margin-right: 50vw; */
+}
+.clients{
+    font-size:300% ;
+    font-weight: 800;
+}
+.partners{
+    font-size: 150%;
+}
+.ourclients{
+    line-height: 250%;
+}
+
+/* horse card staring  */
+.white{
+    background-color: white;
+    width:60vw;
+    height:48vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+   
+}
+.mb-3{
+    height:12.3vh;
+}
+.card-body{
+    width:13.3vw;
+}
+.whitetext{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+.horseallicons{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap:6.5vw;
+    margin-left:3vw;
+
+}
+/* carosel styles */
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 5000s;
+
+   visibility: visible;
+  }
+
+
+
+/* horse closing */
+
+
+
+
+
+
+.narrowbar{
+    background-color:coral;
+    width:100vw;
+    height:40vh;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+   
+
+}
+.onlytext{
+    display:flex;
+    flex-direction: row;
+    gap:5vw;
+   
+  
+}
+.mail{
+    width:20vw;
+    height:3.5vw;
+    color: grey;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+   
+}
+.send{
+    width:8vw;
+    height:3.5vw;
+    background-color: rgb(166, 225, 206);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.subscribe{
+    line-height: 100%;
+    font-size:200% ;
+    font-weight: 800;
+    color:white;
+    margin-top: 7vw;
+    margin-left:10vw;
+}
+.emailbutton{
+    margin-top: 8vw;
+
+}
+.bookimage{
+    margin-top:-2vw;
+     margin-left:vw; 
+    
+} 
+/* settings cards starting */
+.lastbox{ 
+    width:25vw;
+    height:50vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+   
+}
+.support{
+    margin-left:5vw;
+   margin-right:5vw;
+}
+.settings{
+    width:30%;
+    height:50%;
+    padding:2vw;
+    background-color:white;
+    margin-top:8vh;
+     border-radius:50%; 
+    box-shadow: 1px 1px 1px 1px  rgba(82, 80, 80, 0.2), 1px 1px 1px 1px rgb(115, 112, 112);
+
+}
+.lastcards{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left:7vw;
+
+}
+.lastblack{
+    background-color: black;
+    width:100vw;
+    height:41vw;
+    color:white;
+}
+.lastgrey{
+    background-color: rgb(39, 38, 38);
+    width:100vw;
+    height:75vh;
+
+}
+.follow{
+    margin-top:5vw;
+    margin-left:9vw;
+}
+.office{
+    font-weight: 800;
+}
+.officetext{
+    color:rgb(152, 149, 149)
+}
+.flexicons{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.settingsize{
+    width:5vw;
+    height:5vw;
+}
+.lastpics{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:1vw
+}
+.lastallcontent{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top:5vw;
+    margin-left:9vw;
+    margin-right:5vw;
+}
+.officecontent{
+    background-color:rgb(39, 38, 38);
+    width:15vw;
+    height:30vh;
+}
+.officecontent1{
+    background-color:rgb(39, 38, 38);
+    width:18.5vw;
+    height:30vh;
+}
+.officecontent4{
+    background-color:rgb(39, 38, 38);
+    width:18.5vw;
+    height:35vh;
+}
+.copy{
+    margin-top:2vw;
+}
+.brand{
+    color:white;
+}
+.carousel-control-prev-icon, .carousel-control-prev{
+       color:black;
+}
+button{
+    color:black;
+}
+
+  
+  @keyframes fade {
+    from {opacity: 1} 
+    to {opacity: 1}
+  }
+ 
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  @media only screen and (width<1300px){
+    .black{
+        height:400vh;
+    }
+    /* blue card */
+  
+    .one{
+        height:80vh;
+    }
+    .black{
+        width:100vw;
+        
+    }
+    .puple{
+        width:100vw;
+    }
+    .narrowbar{
+        width:100vw
+    }
+    .lastgrey{
+        width:100vw;
+    }
+    .lastblack{
+        width:100vw;
+    }
+    /* blue card ending */
+    .card{
+        height:14vh;
+        width:105vw;
+    }
+    .card-body{
+        width:18vw;
+    }
+    .lastbox{
+        height:70vh;
+    }
+    .lastblack{
+        height:85vh;
+    }
+    
+
+  }
+  @media only screen and (width<1000px){
+    .black{
+        width:100vw;
+        
+    }
+    .puple{
+        width:100vw;
+    }
+    .narrowbar{
+        width:100vw
+    }
+    .lastgrey{
+        width:100vw;
+    }
+    .lastblack{
+        width:100vw;
+    }
+    .mastercard{
+        gap:21.5vw;
+    }
+   .problem{
+    width:40vw !important;
+   } 
+    .carddirty{
+        width:70vw;
+    }
+    .horseallicons{
+        display:grid;
+       grid-template-columns: auto auto auto; 
+        /* gap:6.5vw; */
+        margin-left:5vw;
+    
+    }
+
+  }
+  @media only screen and (width>600px) and (width<900px){
+      
+      .container-fluid{
+      height:8vh;
+     }
+      .titlesection{
+        display:flex;
+        flex-direction: column;
+        gap:0vw;
+      }  
+      .orange{
+        width:60vw;
+        height:83vh;
+        margin-top: 5vw;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        margin-left:38vw;
+        margin-top:-5vw
+        
+    }
+    .book{
+        margin-left:-35vw;
+        margin-top:-1vw;
+    }
+    .watchvideo{
+        font-size:2vw;
+    }
+    .firstvideosvg{
+        width:5vw;
+        height:5vh;
+    }
+    .purple{
+        height:142vw;
+    }
+    .services{
+        display:grid;
+        margin-left:19vw;
+        /* justify-content: center; */
+        font-size:1.5vw;
+        
+    }
+    .allicons{
+        display:grid;
+        grid-template-columns: auto;
+       
+        margin-left:22vh;
+        margin-right:21vw;
+    }
+    .img1{
+        height:25vh;
+    }
+    .black{
+        height:320vh;
+    }
+    .flexible{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .smalltext{
+      font-size: 2vw;
+    }
+    .centering{
+       display: none;
+    }
+
+
+    .mastercard{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-left:30vw;
+        margin-right:30vw; */
+        justify-items: center;
+    }
+    .mc{
+        margin-left: 25vw;
+       
+        width:50vw
+    }
+    /* first three cards */
+    .carddirty{
+        display:flex;
+        flex-direction: column;
+        width:40vw;
+        height:60vh;
+    }
+    .permit{
+        margin-left:25vw;
+       
+    }
+    .imglap{
+       width:40vw;
+       height:35vh
+    }
+    .slideshow-mustard {
+       max-width: 385px;
+     }
+     .back, .forward{
+       color:white !important;
+     }
+     .humancard{
+        display:flex;
+        flex-direction: column;
+        margin-left: 25vw;
+        
+
+     }
+     .meetbutton{
+        padding:15px;
+        font-size: 2vw;
+     }
+      .one{
+        height:50vh;
+     }
+    .project{
+        font-size: 3.6vw;
+        line-height: 100%;
+    }
+    .projecttext{
+        font-size: 100%;
+        line-height:120%;
+    }
+    
+    
+    .white{
+        width:60vw;
+        height:73vh;
+        margin-left:1.8vw;
+    }
+    .g-0{
+        display:flex !important;
+        flex-direction: column !important;
+        
+    }
+     .card{
+        width:30vw;
+        height:29vh;
+        
+    
+     }
+     .card-body{
+        width:30vw;
+        height:16.4vh;
+     }
+     .jevelin1{
+         height:12.5vh;
+        margin-left: 8vw;
+     }
+
+     .jevelin2{
+        height:12.5vh;
+        margin-left: 8vw;
+     }
+     .jevelin3{
+        height:12.4vh;
+        margin-left: 9vw;
+     }
+     .jevelin4{
+       height:12.4vh;
+       margin-left: 9vw;
+
+     }
+     .jevelin5{
+         width:100vw;
+        height:12.39vh;
+        margin-left: 9vw;
+     }
+
+      .prev, .next{
+          display:none;
+      }
+      .lastbox{
+        height:59vh;
+      }
+      .viewbutton{
+         font-size: 100%;
+      }
+      .lastgrey{
+        height:60vh;
+      }
+      .lastblack{
+        height:67vh;
+      }
+
+  }
+  @media only screen and (width<600px){
+      
+   .container-fluid{
+      height:8vh;
+    }
+    .titlesection{
+        display: flex;
+        flex-direction: column;
+        gap:0vw;
+        height:60vh;
+
+    }
+    .creative{
+        font-size: 8vw;
+        font-weight: 800;
+        margin-left:10vw;
+        margin-top:12vw;
+        line-height:8vw;
+        color:rgb(40, 36, 36)
+    }
+    .orange{
+        width:60vw;
+        height:40vh;
+        margin-top: 5vw;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        margin-left:38vw;
+        margin-top:-5vw
+        
+    }
+    .book{
+       width:90vw;
+        margin-left:-25vw;
+        margin-top:3vw;
+    }
+    .watchvideo{
+        font-size:2.5vw;
+    }
+    .firstvideosvg{
+        width:5vw;
+        height:5vh;
+    }
+
+    /* another section purple */
+    .purple{
+        height:215vw;
+    }
+    .black{
+      
+        height:360vh;
+    }
+    .services{
+        display:grid;
+        margin-left:19vw;
+        font-size:1.5vw;
+        
+    }
+    .allicons{
+        display:grid;
+        grid-template-columns: auto;
+        margin-left:17vh;
+        margin-right:21vw;
+    }
+    .allimages{
+        display:grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap:0px;
+        margin-left: 0;
+    }
+   .img1{
+         width:40vw;
+         height:30vh;
+
+   }
+   .imgp{
+    display:none;
+   }
+   .viewbutton{
+    font-size: 2.5vw;;
+   }
+   .achi{
+    font-size: 8vw;
+   }
+   .we{
+    font-size: 4vw;
+   }
+   .innernumbers{
+       font-size: 12vw;
+   }
+   .greentext{
+    font-size: 2.5vw;
+   }
+   
+    .flexible{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .smalltext{
+      font-size: 2.5vw;
+    }
+    .centering{
+       display: none;
+    }
+
+
+    /* up to black section completed */
+    
+    .mastercard{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .mc{
+        margin-left: 25vw;
+       
+        width:50vw
+    }
+    /* first three cards */
+    .carddirty{
+        display:flex;
+        flex-direction: column;
+        width:55vw;
+        height:55vh;
+    }
+    .permit{
+        margin-left:25vw;
+       
+    }
+    .imglap{
+       width:55vw;
+       height:30vh
+    }
+    .slideshow-mustard {
+       max-width: 385px;
+     }
+     .back, .forward{
+       color:white !important;
+     }
+     .humancard{
+        display:flex;
+        flex-direction: column;
+        margin-left: 25vw;
+        
+
+     }
+     /* master and human cards ending here */
+     .meetbutton{
+        padding:20px;
+        font-size: 2vw;
+     }
+
+     /* blue card */
+    
+      
+      .container {
+        position: relative;
+       
+      }
+       .content {
+        position: absolute;
+        bottom: 0;
+        background: rgb(76, 76, 201); /* Fallback color */
+        background: rgba(4, 29, 169, 0.5); /* Black background with 0.5 opacity */
+        color: #fefcfc;
+        width: 90vw;
+        height:50vh;
+        padding: 5vw;
+        line-height: 300%;
+        
+      }
+      .one{
+        background-color: rgb(76, 76, 201);
+        width:90vw;
+        height:50vh;
+        font-weight: 900;
+        color:rgb(108, 108, 231);
+        font-size:40vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align:center;
+        /* margin-top:5vw; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(59, 59, 59);
+        text-shadow: 50px 50px 50px 50px grey;
+        
+      }
+      
+    .project{
+      color:white;
+      font-size: 200%;
+      font-weight:800;
+      line-height: 100%;
+     
+      
+    }
+    
+    .projecttext{
+      color:rgb(173, 167, 209);
+      font-size: 3vw;
+      line-height: 120%;
+      font-weight: 500;
+    }
+    .bluecard{
+        display:grid;
+        grid-template-columns:auto;
+        gap:0vw;
+       
+    }
+
+    /* Blue card enfing */
+    /* carousel horse stating */
+    /* horse card staring  */
+.white{
+    background-color: white;
+    width:80vw;
+    height:65vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+    
+}
+.mb-3{
+    height:24vh;
+    display: flex !important;
+    flex-direction: row !important;
+    
+}
+
+.card-body{
+    width:50vw;
+
+    
+}
+.whitetext{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+.horseallicons{
+    display:grid;
+   grid-template-columns: auto auto auto; 
+    /* gap:6.5vw; */
+    margin-left:5vw;
+
+}
+.horsehiding{
+    display: none;
+}
+/* carosel styles */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 5000s;
+
+   visibility: visible;
+  }
+  .jevelin1{
+    height:12vh;
+   margin-left: 0vw !important;
+}
+
+.jevelin2{
+   height:12.5vh;
+   margin-left: 0vw;
+}
+.jevelin3{
+   height:12.4vh;
+   margin-left: 0vw;
+}
+.jevelin4{
+  height:12.4vh;
+  margin-left: 0vw;
+
+}
+.jevelin5{
+    width:100vw;
+   height:12.39vh;
+   margin-left: 0vw;
+}
+
+/* hose carousel closing */
+
+/* narrow bar starting */
+
+.narrowbar{
+   
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap:0vw;
+   
+
+}
+.onlytext{
+    display:flex;
+    flex-direction: column;
+    
+   
+  
+}
+.mail{
+    width:50vw;
+    height:8vw;   
+}
+.send{
+    width:16vw;
+    height:8vw;
+    margin-left: -70vw !important;
+}
+/* .subscribe{
+    line-height: 100%;
+    font-size:200% ;
+    font-weight: 800;
+    color:white;
+    margin-top: 7vw;
+    margin-left:10vw; */
+
+.emailbutton{
+    margin-top: 0vw;
+    margin-left:10vw ;
+
+}
+.bookimage{
+    margin-top:-60vw;
+     margin-left:43vw; 
+} 
+
+
+
+/* narrow bar closing */
+/* settings cards close */
+
+.lastbox{ 
+    width:80vw;
+    height:40vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+   
+}
+.support{
+    margin-left:5vw;
+   margin-right:5vw;
+}
+.settings{
+    width:20%;
+    height:80%;
+    padding:2vw;
+    background-color:white;
+    margin-top:2vh;
+     border-radius:50%; 
+    box-shadow: 1px 1px 1px 1px  rgba(82, 80, 80, 0.2), 1px 1px 1px 1px rgb(115, 112, 112);
+
+}
+.lastcards{
+    display:grid;
+    grid-template-columns: auto ;
+    gap:5vw;
+
+    /* margin-left:35vw; */
+
+}
+/* settings cards close */
+/* last black and grey container */
+
+.lastblack{
+    background-color: black;
+    width:98.9vw;
+    height:120vw;
+    color:white;
+}
+.lastgrey{
+    background-color: rgb(39, 38, 38);
+    width:98.9vw;
+    height:75vh;
+
+}
+.follow{
+    margin-top:5vw;
+    margin-left:9vw;
+}
+/* .office{
+    font-weight: 800;
+} */
+/* .officetext{
+    color:rgb(152, 149, 149)
+} */
+.flexicons{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.settingsize{
+    width:12vw;
+    height:12vw;
+}
+.lastpics{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap:0.1vw;
+}
+.lastallcontent{
+    display:grid;
+    grid-template-columns: auto;
+    margin-top:5vw;
+    margin-left:9vw;
+    margin-right:5vw;
+    gap:1vw;
+}
+/* rgb(39, 38, 38) */
+.officecontent{
+    background-color:rgb(39, 38, 38);
+    width:80vw;
+    height:8vh;
+}
+.tube{
+    width:28vw;
+}
+.officecontent1{
+    background-color:rgb(39, 38, 38);
+    width:80vw;
+    height:15vh;
+}
+.officecontent4{
+    background-color:rgb(39, 38, 38);
+    width:80vw;
+    height:20vh;
+}
+.copy{
+    margin-top:3vw;
+}
+.brand{
+    color:white;
+}
+
+    
+
+}
+
+@media only screen and (width>450px) and (width<600px){
+
+    .problem{
+        width:55vw !important;
+      }
+}
+@media only screen and (width<550px){
+    .black{
+        width:100vw;
+        height:400vh;
+      }
+     
+      .carddirty{
+        height:70vh;
+      }
+      .orange{
+        width:100vw;
+        /* margin-left:-50vw; */
+      }
+      .black{
+        width:100vw;
+        height:450vh;
+      }
+      .purple{
+        width:100vw;
+      }
+      .mc{
+        height:50vh;
+      }
+     
+
+}
+@media only screen and (width<450px){
+  .orange{
+    width:100vw;
+    /* margin-left:-50vw; */
+  }
+  .black{
+    width:100vw;
+    height:450vh;
+  }
+  .purple{
+    width:100vw;
+  }
+  .mc{
+    height:50vh;
+  }
+  .problem{
+    width:55vw !important;
+  }
+ 
+
+}
+@media only screen and (width<300px){
+    .orange{
+        width:100vw;
+        /* margin-left:-50vw; */
+      }
+      .black{
+        width:100vw;
+        height:400vh;
+      }
+      .purple{
+        width:100vw;
+        height:200vh;
+      }
+      .mc{
+        height:70vh;
+      }
+     
+   .allicons{
+    margin-left: 13vw;
+   }
+   .lastbox{
+    height:60vh;
+   }
+   .viewbutton{
+    padding:5vw;
+    font-size: 4vw;
+   }
+}
