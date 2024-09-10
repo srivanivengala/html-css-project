@@ -1531,3 +1531,13 @@ button{
     font-size: 4vw;
    }
 }
+@media only screen and (width>280px) and (width<301px){
+    .black{
+        height:350vh;
+    }
+}
+@media only screen and (width>250px) and (width<270px){
+   .black{
+    height:370vh;
+   }
+}
