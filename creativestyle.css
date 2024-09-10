@@ -1459,7 +1459,7 @@ button{
       }
       .black{
         width:100vw;
-        height:450vh;
+        height:400vh;
       }
       .purple{
         width:100vw;
@@ -1478,17 +1478,17 @@ button{
 @media only screen and (width>450px) and (width<550px){
     .black{
         width:100vw;
-        height:360vh;
+        height:340vh;
       }
 }
-@media only screen and (width<450px){
+@media only screen and (width<450px) and (width>300px){
   .orange{
     width:100vw;
     /* margin-left:-50vw; */
   }
   .black{
     width:100vw;
-    height:380vh;
+    height:350vh;
   }
   .purple{
     width:100vw;
@@ -1510,7 +1510,7 @@ button{
       }
       .black{
         width:100vw;
-        height:370vh;
+        height:380vh;
       }
       .purple{
         width:100vw;
